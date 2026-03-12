@@ -19,7 +19,7 @@ This attribution model effectively neutralizes delta exposure while capturing th
 An **inverse-volatility weighting framework** is applied to equalize risk contributions across the disparate asset classes (e.g., balancing high-volatility Oil against lower-volatility FX). Compared to an equal-weight baseline, this dynamic scaling drastically improves risk-adjusted returns and minimizes drawdown depth.
 
 ## Key Findings & Performance (2015–2025)
-The cross-asset VRP approach proved to be a robust, structural risk premium, exhibiting significant outperformance over traditional equity and passive volatility benchmarks.
+The cross-asset VRP approach exhibited significant outperformance over traditional equity and passive volatility benchmarks.
 
 * **Superior Risk-Adjusted Returns:** The strategy achieved a **1.97 Sharpe Ratio**, significantly outperforming the S&P 500 (0.72) and passive short-volatility instruments.
 * **Low Correlation & Tail Resilience:** Acting as a powerful portfolio diversifier, the strategy maintained a Beta of **0.077** and a correlation of just **0.113** to the S&P 500.
