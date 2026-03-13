@@ -9,11 +9,9 @@ We implement a **cross-asset relative value volatility strategy** designed to ha
 The core signal utilizes a rolling Z-score to identify cross-asset relative-value pairs. By systematically shorting historically overpriced implied volatility and funding underpriced protection, the strategy isolates the pure VRP spread.
 
 ### 2. Options P&L Modeling
-Daily P&L is simulated using a second-order Taylor Series expansion of the Black-Scholes model:
+Daily Options P&L is simulated using a second-order Taylor Series expansion of the Black-Scholes model:
 
 $$dP \approx \Delta dS + \frac{1}{2} \Gamma (dS)^2 + \mathcal{V} d\sigma + \Theta dt$$
-
-This model effectively neutralizes delta exposure while capturing the non-linear gamma effects and primary vega exposure.
 
 ### 3. Risk Management & Sizing
 An **inverse-volatility weighting framework** is applied to equalize risk contributions across the asset classes. Compared to an equal-weight baseline, this dynamic scaling drastically improves risk-adjusted returns and minimizes drawdown depth.
