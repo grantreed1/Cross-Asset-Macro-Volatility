@@ -6,7 +6,7 @@ We implement a **cross-asset relative value volatility strategy** designed to ha
 ## Core Methodology
 
 ### 1. Signal Generation
-The core signal utilizes a rolling Z-score to identify cross-asset relative-value pairs. By systematically shorting historically overpriced implied volatility and funding underpriced protection, the strategy isolates the pure VRP spread.
+The core signal utilizes a rolling Z-score to identify cross-asset relative-value pairs. We systematically short historically overpriced implied volatility to fund underpriced protection.
 
 ### 2. Options P&L Modeling
 Daily Options P&L is simulated using a second-order Taylor Series expansion of the Black-Scholes model:
